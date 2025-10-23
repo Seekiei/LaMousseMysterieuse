@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — La Mousse Mystérieuse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a href="index.html" class="brand">
+                <div class="brand-text">
+                    <h1>La Mousse Mystérieuse</h1>
+                </div>
+            </a>
+            <nav class="main-nav">
+                <a href="index.html">Accueil</a>
+                <a href="bieres.html">Nos bières</a>
+                <a href="evenements.html">Événements</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wrap contact-page">
+        <h2>Contact & informations</h2>
+        <div class="contact-grid">
+            <form class="card contact-form">
+                <label>Nom<input name="name" required></label>
+                <label>Email<input name="email" type="email" required></label>
+                <label>Message<textarea name="message" rows="4"></textarea></label>
+                <div style="display: flex;gap: 8px;justify-content: flex-end;">
+                    <button class="btn primary" type="submit">
+                        Envoyer
+                    </button>
+                </div>
+            </form>
+            <aside class="card contact-info">
+                <h3>Visitez-nous</h3>
+                <p>12 rue des Brasseurs, 75010 Paris<br>Mer — Dim : 17h — 02h</p>
+                <div style="margin-top:12px"><a class="btn" href="#">Itinéraire</a></div>
+            </aside>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,11 +1,17 @@
 /* style.css */
 :root {
-    --bg: #1B120F; /* fond principal sombre */
-    --card: #2A1C17; /* blocs bois */
-    --accent: #D7A22A; /* doré / bière */
-    --moss: #73935F; /* touche verte */
-    --text: #F5E9D0; /* texte principal */
-    --muted: #C7A78B; /* texte secondaire */
+    --bg: #1B120F;
+    /* fond principal sombre */
+    --card: #2A1C17;
+    /* blocs bois */
+    --accent: #D7A22A;
+    /* doré / bière */
+    --moss: #73935F;
+    /* touche verte */
+    --text: #F5E9D0;
+    /* texte principal */
+    --muted: #C7A78B;
+    /* texte secondaire */
     --shadow: rgba(0, 0, 0, 0.4);
 }
 
@@ -75,4 +81,108 @@ body {
 
 section {
     padding: 2rem;
+
   }
+
+.presentation {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.bieres h2 {
+    text-align: center;
+    
+}
+
+.bieres-liste {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap : 2rem;
+    padding: 0 1rem;
+}
+
+.bieres #bieres-intro {
+    text-align: center;
+}
+
+.biere {
+  background-color: #1a0f0a;
+  border: 1px solid #3a2a1f;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+
+/* Contact page */
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 18px
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    background: transparent;
+    color: var(--text)
+}
+
+.primary {
+    display: inline-block;
+    background-color: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+.card.contact-info {
+    background-color: var(--card);   
+    border: 1px solid var(--card);       
+    border-radius: 10px;          
+    padding: 20px;                
+    max-width: 300px;             
+    font-family: Arial, sans-serif;
+}
+
+.card.contact-info h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: var(--text);
+}
+
+.card.contact-info p {
+    margin: 10px 0;
+    line-height: 1.5;
+    color: var(--text);
+}
+
+.card.contact-info .btn {
+    display: inline-block;
+    background-color: var(--accent);
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card.contact-info .btn:hover {
+    background-color: var(--bg);
+}
+
