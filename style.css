@@ -81,6 +81,39 @@ body {
 
 section {
     padding: 2rem;
+
+  }
+
+.presentation {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.bieres h2 {
+    text-align: center;
+    
+}
+
+.bieres-liste {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap : 2rem;
+    padding: 0 1rem;
+}
+
+.bieres #bieres-intro {
+    text-align: center;
+}
+
+.biere {
+  background-color: #1a0f0a;
+  border: 1px solid #3a2a1f;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 
@@ -152,3 +185,4 @@ section {
 .card.contact-info .btn:hover {
     background-color: var(--bg);
 }
+
