@@ -1,0 +1,78 @@
+/* style.css */
+:root {
+    --bg: #1B120F; /* fond principal sombre */
+    --card: #2A1C17; /* blocs bois */
+    --accent: #D7A22A; /* doré / bière */
+    --moss: #73935F; /* touche verte */
+    --text: #F5E9D0; /* texte principal */
+    --muted: #C7A78B; /* texte secondaire */
+    --shadow: rgba(0, 0, 0, 0.4);
+}
+
+* {
+    box-sizing: border-box
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    margin: 0;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Arial;
+    color: var(--text);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased
+}
+
+.wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit
+}
+
+.brand-logo {
+    width: 56px;
+    height: 56px;
+    margin-right: 12px
+}
+
+.brand-text h1 {
+    margin: 0;
+    font-size: 18px
+}
+
+.tag {
+    font-size: 13px;
+    color: var(--muted)
+}
+
+.main-nav {
+    display: flex;
+    gap: 14px
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 600
+}
+
+section {
+    padding: 2rem;
+  }
