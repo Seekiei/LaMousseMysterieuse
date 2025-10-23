@@ -152,11 +152,11 @@ section {
 
 
 .card.contact-info {
-    background-color: var(--card);   /* couleur de fond douce */
-    border: 1px solid var(--card);       /* bordure légère */
-    border-radius: 10px;          /* coins arrondis */
-    padding: 20px;                /* espace interne */
-    max-width: 300px;             /* largeur max */
+    background-color: var(--card);   
+    border: 1px solid var(--card);       
+    border-radius: 10px;          
+    padding: 20px;                
+    max-width: 300px;             
     font-family: Arial, sans-serif;
 }
 
